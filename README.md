@@ -1,92 +1,114 @@
-## 📊 Excel Sales Analysis Dashboard
+## 📊 Excel Sales Analysis Dashboards
+This document outlines two distinct sales analysis projects, each utilizing Microsoft Excel to derive and present insights from sales data in an interactive dashboard format.
 
-A comprehensive sales analysis project using Microsoft Excel to derive insights from sales data and present them in an interactive dashboard.
-
+## Project 1: Flipkart Sales Dashboard
 ## 📜 Project Overview
 
-The main goal of this project is to analyze the provided sales dataset to identify key trends, top-performing categories, and profitability metrics. The final output is an interactive dashboard in Excel that allows users to dynamically filter and explore the data to gain actionable insights.
+The first project analyzes transactional data from Flipkart to identify key trends, top-performing categories, and profitability metrics. The final output is an interactive dashboard in Excel that allows users to dynamically filter and explore the data to gain actionable insights.
 
 ## 💾 Dataset
+The dataset used for this analysis is data.xlsx. It contains transactional data for a retail company. Key columns include:
 
-The dataset used for this analysis is data.xlsx. It contains transactional data for a retail company.
+ * Order ID: Unique identifier for each order.
 
-# Key columns in the dataset include:
+ * Order Date: Date the order was placed.
 
- ->Order ID: Unique identifier for each order.
+ * Region: The geographical region of the sale.
 
- ->Order Date: Date the order was placed.
+ * Category: The main product category.
 
- ->Customer Name: Name of the customer.
+ * Sub-Category: The specific product sub-category.
 
- ->Region: The geographical region of the sale.
+ * Sales: The total sale amount for the transaction.
 
- ->Category: The main product category.
+ * Quantity: The number of units sold.
 
- ->Sub-Category: The specific product sub-category.
+ * Profit: The profit generated from the transaction.
 
- ->Product Name: The name of the product.
+## 📸 Dashboard Preview 
 
- ->Sales: The total sale amount for the transaction.
-
- ->Quantity: The number of units sold.
-
- ->Profit: The profit generated from the transaction.
-
-## 🛠️ Tools and Technologies
-* Microsoft Excel: The primary tool for data cleaning, analysis, and visualization.
-
-* PivotTables: Used to summarize and aggregate the data.
-
-* PivotCharts: For creating dynamic charts based on PivotTable data.
-
-* Slicers: To provide interactive filtering capabilities on the dashboard.
-
-* Formulas: For creating calculated fields and key performance indicators (KPIs).
-
-## 📈 Analysis and Visualization
-The project culminates in an interactive dashboard (Sales Dashboard.png) which includes the following components:
-
-# Key Performance Indicators (KPIs)
-* Total Orders: Total number of orders placed.
-
-* Total Quantity: Total quantity of products sold.
-
-* Total Sales: Total revenue generated.
-
-* Total Profit: Total profit earned.
-
-## 📸 Project Preview
-
-<img width="1419" height="681" alt="Sales Dashboard" src="https://github.com/user-attachments/assets/5113fc52-0174-44f2-8484-ee60e11ab164" />
+<img width="1419" height="681" alt="Sales Dashboard" src="https://github.com/user-attachments/assets/196cf755-c9b2-47bf-b1c4-b8ac122657c2" />
 
 
-# Visualizations
+## Key Performance Indicators (KPIs)
 
-* Sales Trend Year Wise: An area chart showing the trend of sales over different quarters and years.
+ ->Total Orders: 61
 
-* Sales vs Profit Year Wise: A column chart comparing total sales against total profit for each year.
+ ->Total Quantity: 227
 
-* Average Sales by Year: A bar chart displaying the average sale amount per order for each year.
+ ->Total Sales: ₹29,342
 
-* Detailed Breakdown Table: A PivotTable showing Quantity, Sales, and Profit for each Sub-Category.
+ ->Total Profit: ₹3,059
+
+## Visualizations
+
+ * Sales Trend Year Wise: An area chart showing the trend of sales over different quarters and years.
+
+ * Sales vs Profit Year Wise: A column chart comparing total sales against total profit for each year.
+
+ * Average Sales by Year: A bar chart displaying the average sale amount per order for each year.
+
+ * Detailed Breakdown Table: A PivotTable showing Quantity, Sales, and Profit for each Sub-Category.
 
 ## 💡 Key Insights
+-> Sales Growth: The "Sales Trend Year Wise" chart indicates a significant and consistent upward trend in sales, with Q4 being the strongest quarter.
 
- ->Sales Growth:The "Sales Trend Year Wise" chart indicates a significant and consistent upward trend in sales, with Q4 being the strongest quarter.
-
- ->Profitability Analysis: The "Sales vs Profit Year Wise" chart helps in understanding the profitability over the years. For instance, while 2016 had high sales, its corresponding profit was relatively low, suggesting potential issues with margins or high-cost products during that period.
+ ->Profitability Analysis: While 2016 had high sales, its corresponding profit was relatively low, suggesting potential issues with margins or high-cost products during that period.
 
  ->Product Performance: The detailed table allows for quick identification of the most and least profitable sub-categories. For example, Copiers and Phones appear to be highly profitable, whereas Tables and Bookcases have incurred losses.
 
-## 🚀 How to Use the Dashboard
+## Project 2: Excel Dashboard 2023
 
-1.Open the Excel file containing the dashboard.
+## 📜 Project Overview
+The second project focuses on a 2023 sales dataset, presenting key metrics in a clean, modern dashboard. It tracks sales, profit, and customer acquisition on a monthly basis, with regional performance breakdowns.
 
-2.Use the Slicers on the left-hand side to filter the data:
+## 💾 Dataset
 
-  * Region: Click on a region (e.g., Central, East) to see data specific to that region.
+The analysis is based on the Excel Dashboard Data.xlsx file, which includes the following key columns:
 
-  * Sub-Category: Select one or more sub-categories to analyze their performance.
+ * Month: The month of the recorded data.
 
-3.Interact with Charts: Hover over the charts to see detailed data points. The charts and KPIs will update automatically based on your
-  filter selections.
+ * Region: The geographical location of sales.
+
+ * Sales: Total monthly sales revenue.
+
+ * Profit: Total monthly profit.
+
+ * Number of Customers: The count of customers for the month.
+
+## 📸 Dashboard Preview 
+
+<img width="1804" height="805" alt="Excel Dash" src="https://github.com/user-attachments/assets/e9b150b6-0c44-4c2b-a93f-bde23db17125" />
+
+
+## Key Performance Indicators (KPIs)
+
+-> Total Sales: $754,941
+
+-> Total Profit: $891,111
+
+-> Total Number of Customers: 9,360
+
+## Visualizations
+ * Sales per Month: A column chart tracking the progression of sales throughout the year.
+
+ * Customers per Month: A line chart showing the growth in the customer base over time.
+
+ * Profit per Region: A bar chart comparing the profitability of different sales regions.
+
+## 💡 Key Insights
+
+* Monthly Growth: The "Sales per Month" chart demonstrates steady growth, indicating successful sales strategies throughout the year.
+
+* Customer Acquisition: The "Customers per Month" line chart shows a strong and accelerating rate of new customer acquisition, particularly in the latter half of the year.
+
+* Regional Profitability: The "Profit per Region" chart helps identify the most lucrative markets, allowing for targeted marketing and resource allocation.
+
+## 🚀 How to Use the Dashboards
+1.Open the relevant Excel file for the dashboard you wish to view.
+
+2.Use the Slicers (filters) on the side to drill down into the data by Region, Sub-Category, or Month.
+
+3.All charts, KPIs, and tables will update automatically based on your filter selections.
+
+4.Hover over chart elements to view detailed data points.
